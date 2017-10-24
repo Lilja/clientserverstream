@@ -44,7 +44,7 @@ public class Client {
             br = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             ps.print("WORDS");
             List<String> payload = bufreadToList(br);
-            wordToOccurrence(payload);
+            System.out.println(wordToOccurrence(payload));
         }
         catch (Exception e) {
             e.printStackTrace();

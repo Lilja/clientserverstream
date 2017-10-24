@@ -12,6 +12,7 @@ Client will connect to the server and transform the contents to a bag of words, 
 ## Running the Server
 ```shell
 $ cd src/
+$ cp ../islands_in_the_stream .
 $ javac Server.java && java Server .
 ```
 
